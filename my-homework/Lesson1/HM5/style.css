@@ -1,0 +1,39 @@
+.list {
+  display: flex;
+  margin-bottom: 0;
+
+  background-color: black;
+  padding: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-right: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+  color: aliceblue;
+}
+.main {
+  background-color: bisque;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+}
+.images {
+  display: flex;
+}
+
+.images img {
+  width: 200px;
+}
+.name {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+}
+.description {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}

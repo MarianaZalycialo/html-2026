@@ -1,0 +1,25 @@
+.cards li {
+  display: inline-block;
+  width: 70px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  background: #ececec;
+  font-size: 48px;
+  padding: 20px;
+  margin-right: 8px;
+}
+.red {
+  color: #a40303;
+}
+.cards2 li {
+  display: inline-block;
+  width: 70px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  background: #ececec;
+  font-size: 48px;
+  padding: 20px;
+  margin-right: 8px;
+}
