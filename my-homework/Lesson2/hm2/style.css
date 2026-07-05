@@ -1,0 +1,18 @@
+div {
+  background-color: pink;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+li {
+  width: 100px;
+  height: 100px;
+  background: red;
+  margin: 20px;
+}
+li:hover {
+  background: blue;
+  border-radius: 50%;
+}
