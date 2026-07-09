@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+section.top {
+  background-color: pink;
+  color: black;
+}
+section.footer {
+  background-color: rgb(3, 0, 1);
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+  color: white;
+  font-size: 18px;
+  padding: 0 100px;
+  font-family: "Roboto", sans-serif;
+}
