@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .grid {
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 1fr 3fr 1fr;
+      }
+
+      .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+
+      header,
+      footer {
+        background: #d9d9d9;
+      }
+
+      main {
+        background: #a4a4a4;
+      }
+
+      .left,
+      .right {
+        background: #c0bdbd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <header></header>
+      <div class="content">
+        <aside class="left"></aside>
+        <main></main>
+        <aside class="right"></aside>
+      </div>
+      <footer></footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+.scene {
+  position: relative;
+}
+
+.character {
+  width: 300px;
+}
+
+.ball {
+  position: absolute;
+  width: 100px;
+  top: 120px;
+  left: 243px;
+  animation: throwBall 1.5s infinite ease-in-out;
+}
+
+@keyframes throwBall {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-120px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

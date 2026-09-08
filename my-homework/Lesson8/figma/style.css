@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0px;
+}
+body {
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+.wrapper-page-note-found {
+  height: 100vh;
+  background: #161622;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle-left {
+  width: 396px;
+  height: 396px;
+  border-radius: 396px;
+  border: 48px solid #6f1df4;
+  opacity: 0.5;
+  position: absolute;
+  top: -200px;
+  left: -210px;
+}
+.circle-right {
+  width: 260px;
+  height: 260px;
+  border-radius: 260px;
+  border: 48px solid #6f1df4;
+  opacity: 0.5;
+  position: absolute;
+  top: 20px;
+  right: -120px;
+}
+.page-note-found {
+  text-align: center;
+}
+.page-note-found h2 {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 180px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140px;
+  letter-spacing: -0.5px;
+}
+.page-note-found h3 {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+  letter-spacing: 0.25px;
+  margin: 30px 0 24px 0;
+}
+p {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+  width: 533px;
+  margin: 33px 0 40px;
+}
+.page-note-found div button:nth-child(1) {
+  display: flex;
+  height: 64px;
+  padding: 0 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 32px;
+  background: #6f1df4;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 19.2px */
+}
+.page-note-found div button:nth-child(2) {
+  display: flex;
+  height: 64px;
+  padding: 0 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 32px;
+  background: #fff;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 19.2px */
+}
+.page-note-found div {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}

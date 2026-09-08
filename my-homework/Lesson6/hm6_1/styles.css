@@ -1,0 +1,46 @@
+body {
+  height: 100vh;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteiner {
+  width: 50%;
+  height: 60%;
+  background-color: white;
+  border-radius: 20px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  border-radius: 20px 20px 0 0;
+  border: solid 1px gainsboro;
+}
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 60px 100px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
+#login,
+#password {
+  height: 30px;
+}
+button {
+  width: 100px;
+  border-radius: 10px;
+  height: 35px;
+  background: aliceblue;
+  border: solid 1px gainsboro;
+}
